@@ -1,0 +1,1 @@
+# Genshin Impact Resource Calculator
