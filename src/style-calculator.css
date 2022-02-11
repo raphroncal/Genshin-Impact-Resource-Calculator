@@ -1,0 +1,39 @@
+.main-content {
+	background-color: rgb(36, 36, 36);
+	border-radius: 10px;
+	padding: 2% 0 2% 0;
+}
+
+.calculator {
+	display: flex;
+}
+
+.user-specs {
+	border-right: 1px solid rgb(53, 53, 53);
+	padding: 0 2% 0 2%;
+	width: 20%;
+}
+
+#character-icon {
+	width: 150px;
+}
+
+h1 {
+	color: white;
+	font-size: 20px;
+	margin-bottom: 2%;
+}
+
+.user-specs p {
+	color: white;
+	margin-bottom: 0.5%;
+}
+
+.results {
+	padding: 0 2% 0 2%;
+}
+
+h2 {
+	color: white;
+	font-size: 16px;
+}
