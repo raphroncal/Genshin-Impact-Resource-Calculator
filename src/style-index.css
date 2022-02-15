@@ -1,16 +1,15 @@
 .char-options {
-	text-align: justify;
-	-ms-text-justify: distribute-all-lines;
-	text-justify: distribute-all-lines;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-around;
 }
 
 .option {
-	vertical-align: top;
 	display: inline-block;
-	*display: inline;
 	background-color: rgb(53, 53, 53);
 	border-radius: 5%;
-	margin-bottom: 1%;
+	margin-bottom: 5%;
 }
 
 .option img {
@@ -25,8 +24,4 @@
 	padding-left: 7%;
 	margin-top: 4%;
 	margin-bottom: 5%;
-}
-
-.filler {
-	width: 500px;
 }
