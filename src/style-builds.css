@@ -6,3 +6,8 @@ p a {
 	color: white;
 	text-decoration: underline;
 }
+
+a:hover {
+	/* color: rgb(78, 78, 78); */
+	color: rgb(196, 196, 196);
+}
