@@ -16,21 +16,37 @@
 	<body>
 		<div class="container">
 			<div class="child">
-				<h1 class="text-center">Welcome Back!</h1>
-				<form action="index.html">
+				<h1 class="text-center">Create an Account</h1>
+				<form action="login.html">
 					<div class="mb-3">
-						<label for="username" class="form-label">Username</label>
-						<input type="username" class="form-control" id="username" />
+						<label for="username-signup" class="form-label">Username</label>
+						<input
+							type="username-signup"
+							class="form-control"
+							id="username-signup"
+						/>
 					</div>
 					<div class="mb-3">
-						<label for="password" class="form-label">Password</label>
-						<input type="password" class="form-control" id="password" />
+						<label for="password-signup1" class="form-label">Password</label>
+						<input
+							type="password-signup1"
+							class="form-control"
+							id="password-signup1"
+						/>
 					</div>
-					<button id="submit" type="submit" class="btn btn-primary">
-						Submit
-					</button>
+					<div class="mb-3">
+						<label for="password-signup2" class="form-label"
+							>Confirm Password</label
+						>
+						<input
+							type="password-signup2"
+							class="form-control"
+							id="password-signup2"
+						/>
+					</div>
+					<button type="submit-signup" class="btn btn-primary">Submit</button>
 				</form>
-				<p>No account yet? <a href="signup.html">Sign up</a></p>
+				<a href="login.html">Wanna login instead?</a>
 			</div>
 		</div>
 
